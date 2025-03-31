@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Bokamoso Property Consultancy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background: #f4f4f4;
+            color: #333;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 5%;
+            background: white;
+            color: white;
+            flex-wrap: wrap;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .navbar ul li a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+        }
+        .cta {
+            padding: 10px 20px;
+            border: 2px solid black;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        
+        /* Responsive Navigation */
+        .menu-toggle {
+            display: none;
+            font-size: 25px;
+            cursor: pointer;
+        }
+        .hero {
+            background: url('BG.jpg') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 10vw 5%;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 50px 5%;
+            text-align: center;
+        }
+        .service-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .box {
+            width: 100%;
+            max-width: 300px;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .box i {
+            font-size: 40px;
+            color: #03840e;
+            margin-bottom: 10px;
+        }
+        .footer {
+            background: #03840e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                text-align: center;
+            }
+            .navbar ul {
+                flex-direction: column;
+            }
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+ <nav class="navbar">
+    <div class="logo">
+        <img src="logo.jpg" alt="Bokamoso Property Consultancy Logo" style="height: 50px;">
+    </div>
+    <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="service.html"><i class="fas fa-tools"></i> Services</a></li>
+        <li><a href="blog.html"><i class="fas fa-newspaper"></i> Blog</a></li>
+        <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+        <li><a href="contact .html"><i class="fas fa-envelope"></i> Contact Us</a></li>
+    </ul>
+</nav>
+
+<div class="hero">
+    <h1>Our Services</h1>
+    <p>Home > Our Services</p>
+</div>
+
+<section class="container">
+    <h2>A Wide Range of Property Services</h2>
+    <div class="service-container">
+        <div class="box">
+            <i class="fas fa-home"></i>
+            <h3>House Plans</h3>
+            <p>Professional house planning services to bring your dream home to life.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-tools"></i>
+            <h3>House Construction</h3>
+            <p>High-quality construction services tailored to your needs.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-map"></i>
+            <h3>Property Survey</h3>
+            <p>Accurate surveying for your land and property.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-city"></i>
+            <h3>Real Estate Activities</h3>
+            <p>Helping you navigate the real estate market with ease.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-ruler-combined"></i>
+            <h3>Land Survey</h3>
+            <p>Precise land measurements for your property needs.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-balance-scale"></i>
+            <h3>Property Evaluation</h3>
+            <p>Get accurate property valuations from our experts.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-blog"></i>
+            <h3><a href="blog.html" style="text-decoration: none; color: #03840e;">Visit Our Blog</a></h3>
+            <p>Stay updated with our latest projects, lands, and property insights.</p>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>&copy; 2025 Bokamoso Property Consultancy (Pty) LTD. All rights reserved.</p>
+</footer>
+</body>
+</html>
